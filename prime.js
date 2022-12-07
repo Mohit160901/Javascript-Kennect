@@ -1,4 +1,4 @@
-const number = parseInt(readInt("Enter a positive number: "));
+const number = 11;
 let isPrime = true;
 if (number === 1) {
   console.log("neither prime nor composite number.");
@@ -30,7 +30,16 @@ if (number === 1) {
       n1 = n1 + 1;
     }
     console.log(number + " " + "Is a prime number");
-    console.log(nxprime + " " + "is next Prime of " + " " + number);
+    console.log(
+      nxprime +
+        " " +
+        "is next Prime of " +
+        " " +
+        number +
+        " " +
+        "difference between both number is " +
+        (nxprime - number)
+    );
   } else {
     console.log(number + " " + "is a not prime number");
   }
